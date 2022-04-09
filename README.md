@@ -13,10 +13,21 @@
 
 ## Examples
 ### Windows
-    python.exe .\gen-data-2.py -s 2021 -r USGA -l WGA22 --league-code doug22 --output-type table --output-location douglasville-meet-2
+    python.exe .\gen_data_2.py -s 2021 -r USGA -l WGA22 --league-code doug22 --output-type table --output-location douglasville-meet-2
 
-    python.exe .\gen-data-2.py -s 2021 -r USGA -l NEGA22 --league-code jc22 --output-type table --output-location jackson-meet-5      
+    python.exe .\gen_data_2.py -s 2021 -r USGA -l NEGA22 --league-code jc22 --output-type table --output-location jackson-meet-5      
 ### Mac/Linux
-    python gen-data-2.py -s 2021 -r USGA -l WGA22 --league-code doug22 --output-type table --output-location douglasville-meet-2
+    python gen_data_2.py -s 2021 -r USGA -l WGA22 --league-code doug22 --output-type table --output-location douglasville-meet-2
 
-    python gen-data-2.py -s 2021 -r USGA -l NEGA22 --league-code jc22 --output-type table --output-location jackson-meet-5      
+    python gen_data_2.py -s 2021 -r USGA -l NEGA22 --league-code jc22 --output-type table --output-location jackson-meet-5      
+
+## Help
+### Windows
+    python.exe .\gen_data_2.py --help
+
+### Mac/Linux
+    python gen_data_2.py --help
+
+## TODOS
+- [] Add support for parent leagues only
+- [] Better support for finding league code (search by league name)

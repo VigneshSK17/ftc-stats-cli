@@ -136,6 +136,5 @@ def handle_args(args: argparse.Namespace):
 def main():
     parse_args()
 
-
 if __name__ == "__main__":
     main()
